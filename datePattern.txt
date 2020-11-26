@@ -1,0 +1,4 @@
+Date and time regular expresion  YYYY/MM/DD HH:MM(:SS)
+    ^(\d{4})(\/)(\d{2})(\/)(\d{2}) (\d{2})(\:)(\d{2})|(\:)(\d{2})$
+
+    Note: this regex do not validate year, month, day, hours, mminutes and seconds. 
